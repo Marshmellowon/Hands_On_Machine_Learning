@@ -42,6 +42,7 @@ print(X > 15)
 # 그래프 그리기
 print("--------------matplotlib--------------")
 import matplotlib.pyplot as plt
+from matplotlib.image import imread
 
 # 데이터 준비
 x1 = np.arange(0, 6, 0.1)
@@ -55,4 +56,9 @@ plt.xlabel("x")
 plt.ylabel("y")
 plt.title('sin & cos')
 plt.legend()
+plt.show()
+
+img = imread('img/germany.png')
+
+plt.imshow(img)
 plt.show()
