@@ -52,4 +52,5 @@ x = np.array([[0.1, 0.8, 0.1], [0.3, 0.1, 0.6], [0.2, 0.5, 0.3], [0.8, 0.1, 0.1]
 y = np.argmax(x, axis=1)
 print(y)
 
-# TODO: page 104 batch 다시 보기
+# TODO: page 104 batch 다시 보기, pickle 5 에러 고치기
+# TODO: page 107 부터 시작

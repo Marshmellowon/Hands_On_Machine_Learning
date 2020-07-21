@@ -21,6 +21,7 @@ import numpy as np
 x = np.array([1.0, 2.0, 3.0])
 y = np.array([2.0, 4.0, 6.0])
 print(x * 2)
+print(x + y)
 
 q = np.array([[1, 2], [3, 4]])
 print(q.shape)  # shape: 행렬의 형상
@@ -56,6 +57,7 @@ plt.xlabel("x")
 plt.ylabel("y")
 plt.title('sin & cos')
 plt.legend()
+plt.savefig('cossin.png')
 plt.show()
 
 img = imread('img/germany.png')

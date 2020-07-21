@@ -30,7 +30,10 @@ def ANDbias(x1, x2):
         return 1
 
 
+print(ANDbias(0, 0))
 print(ANDbias(1, 0))
+print(ANDbias(0, 1))
+print(ANDbias(1, 1))
 
 # NAND
 print("NAND logic")
