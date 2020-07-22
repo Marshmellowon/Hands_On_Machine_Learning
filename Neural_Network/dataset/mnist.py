@@ -5,7 +5,7 @@ except ImportError:
     raise ImportError('You should use Python 3.x')
 import os.path
 import gzip
-import pickle
+import pickle5 as pickle
 import os
 import numpy as np
 
